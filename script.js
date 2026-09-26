@@ -1,11 +1,11 @@
-const a = 12;
+const today = new Date();
 
-const heading = document.getElementById("heading");
-const message = document.getElementById("message");
-const button = document.getElementById("button");
-
-heading.textContent = `Hello! The value of a is ${a}`;
-
-button.addEventListener("click", function () {
-    message.textContent = `You clicked the button! a = ${a}`;
+const formattedDate = today.toLocaleDateString("en-US", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric"
 });
+
+document.getElementById("today").textContent = "GREEN";
+document.getElementById("date").textContent = formattedDate;
