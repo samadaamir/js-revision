@@ -1,4 +1,4 @@
 let a = ()=>{
-    console.log("Hello World");
+    console.log("World 123");
 }
 a();
