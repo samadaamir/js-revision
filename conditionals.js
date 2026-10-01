@@ -14,3 +14,14 @@ else {
 //True and false values are used in conditionals to determine which block of code to execute.
 //For example, in the above code, the condition age >= 18 evaluates to true,
 //so the first block of code is executed, and "You are an adult." is printed to the console.
+
+//elseif statements can also be used to check multiple conditions. For example:
+if (age < 13) {
+    console.log("You are a child.");
+}
+else if (age >= 13 && age < 18) {
+    console.log("You are a teenager.");
+}
+else {
+    console.log("You are an adult.");
+}   
