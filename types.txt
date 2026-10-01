@@ -1,0 +1,29 @@
+TYPES IN JAVASCRIPT
+
+1- Primitive
+2-Reference
+
+1-PRIMITIVE:
+
+
+Primitive type values are string,boolean,number,bigint,int 
+
+2-Reference
+
+
+Reference type values wo values hoti hain jo copy krne pr same ko hi copy kre or changes krne pr original value mn changes kr de
+e.g;
+
+CODE:
+
+var a=[1,2,3,4];
+var b=a;
+b.pop()
+
+ab console krne pr b ki value to [1,2,3] ho gi lkn is k sth sth a ki value bhi [1,2,3] hi ho gi. 
+
+
+TIP;
+
+
+Reference type values mn brackets hoti hain () ya [] ya {}
