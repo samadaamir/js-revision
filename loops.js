@@ -10,3 +10,8 @@ while (j < 5) {
     console.log(j);
 }
 
+//do while loop
+let k = 0;
+do {
+    console.log(k);
+} while (k < 5);    
